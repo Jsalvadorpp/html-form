@@ -1,0 +1,51 @@
+/** Global */
+body{
+    background-color: #eceef1;
+    color: #505050;
+}
+.container{
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+.right{
+    float: right;
+}
+a{
+    color: #0077C5;
+}
+button{
+    padding: 8px 18px;
+    margin: 0 10px;
+    color: white;
+    border: 1px solid #4c4c4c;;
+    outline-style: none;
+    border-radius: 4px;
+}
+button:hover{
+    cursor: pointer;
+}
+.clear{ 
+    clear: both; 
+}
+.icon{
+    height: 14px;
+    width: 12px;
+    vertical-align: -2px;
+    margin-right: 5px;
+}
+
+/** Header */
+#nav_info{
+    font-size: 12px;
+    text-align: right;
+    padding-top: 4px;
+}
+#nav_info span{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#signup_btn{
+    background-color: #0077c5;
+    border-color: black;
+}
+/* ******* */

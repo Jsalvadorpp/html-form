@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: Arial;
 }
 ol, ul {
 	list-style: none;
@@ -46,3 +47,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{
+	text-decoration: none;
+}
+input[type="button"], button{
+	outline:none;
+}
+input[type="button"]::-moz-focus-inner,
+button::-moz-focus-inner{
+	border: 0;
+}
+ 
