@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="icon" type="image/png" href="https://accounts.intuit.com/images/favicons/apple-touch-icon-152x152.png" sizes="32x32">
     <title>Intuit Accounts - Sign Up</title>
 </head>
 <body id='body-container'>
-
+    
     <!--* Header -->
     <header class='container'>
 
@@ -30,6 +31,57 @@
 
     <!-- *Signup form -->
     <section>
+
+        <a href="#" id='form-logo'></a>
+        <ul id='page-links'>
+            <li><a><span id='link-icon1'></span><span id='link-text1'></span></a></li>
+            <li><a><span id='link-icon2'></span><span id='link-text2'></span></a></li>
+            <li><a><span id='link-icon3'></span><span id='link-text3'></span></a></li>
+        </ul>      
+
+        <form id='signup-form'>
+            <fieldset>
+                <p class='txt-center form-title'>Create an Intuit account</p>
+                <p class='txt-center'>One account for everything Intuit, including Mint.</p>
+                <a href='#' class="txt-center">Learn more</a>
+
+                <div class='input-group'>
+                    <label>Email address</label>
+                    <input type='email'>
+                </div>
+                
+                <div class='input-group'>
+                    <label>Phone (recommended)</label>
+                    <input type="tel"> 
+                    <small>Standard call, messaging or data rates may apply.</small>
+                </div>
+
+                <div class='input-group'>
+                    <label>Password</label>
+                    <input type="password">
+                    <span id='unlock-icon'></span>
+                </div>
+                
+                <button type="submit">
+                    <img class='icon' src="images/lock.png">
+                    Create Account
+                </button>
+
+                <small class='txt-center'>
+                    By clicking Create account, you agree to our
+                    <a>Terms</a> and have read and acknowledge 
+                    our <a>Privacy Statement.</a>
+                </small>
+
+            </fieldset>
+
+            <div class='form-footer txt-center'>
+                <small>
+                    Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use.</a>
+                </small>
+            </div>
+
+        </form>
 
     </section>
     <!-- ************ -->
